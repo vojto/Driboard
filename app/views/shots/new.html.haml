@@ -1,0 +1,7 @@
+#document
+  .content
+    %h1 New shot
+    
+    - semantic_form_for [@board, @shot] do |f|
+      = f.input :remote_id
+      = f.commit_button

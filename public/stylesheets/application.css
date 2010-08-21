@@ -1,0 +1,32 @@
+/* @override http://localhost:3003/stylesheets/application.css?1 */
+
+/* @group Layout */
+
+#wrapper { position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: hidden; }
+
+#board { position: absolute; top: 0px; width: 100%; height: 100%; background-image: url(../images/board_background.png); }
+
+#board #shots { position: absolute; top: 0px; left: 0px; }
+
+#header { position: absolute; top: 0px; left: 0px; background: black; height: 25px; width: 100%; z-index: 999; color: #fff; }
+
+#header a { color: #fff; }
+
+#header .content
+ { padding: 5px; }
+
+#document { position: absolute; }
+
+#document .content { padding: 15px; }
+
+
+
+/* @end */
+
+/* @group Typo */
+
+body { font: 12px "Lucida Grande", Arial; }
+
+
+
+/* @end */

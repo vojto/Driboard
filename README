@@ -1,0 +1,9 @@
+Driboard is a simple MongoDB-based app that allows you to
+create a board from your favorites shots from Dribbble.
+
+Try it out:
+
+git clone ...
+cd ...
+bundle install
+rails s
